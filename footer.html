@@ -1,6 +1,6 @@
-<footer class="container py-5">
+<footer class="py-5">
   <div class="row">
-    <div class="col-6 col-md">
+    <div class="col-6 col-md first-col">
       <h5>Features</h5>
       <ul class="list-unstyled text-small">
         <li><a class="text-muted" href="#">Cool stuff</a></li>
@@ -11,7 +11,7 @@
         <li><a class="text-muted" href="#">Last time</a></li>
       </ul>
     </div>
-    <div class="col-6 col-md">
+    <div class="col-6 col-md second-col">
       <h5>Resources</h5>
       <ul class="list-unstyled text-small">
         <li><a class="text-muted" href="#">Resource</a></li>
@@ -38,10 +38,26 @@
         <li><a class="text-muted" href="#">Terms</a></li>
       </ul>
     </div>
+
+   
   </div>
 </footer>
 <style>
+  footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: rgb(205, 205, 120);
+    padding: 20px 0;
+  }
   .row {
     background-color: rgb(205, 205, 120);
+  }
+  .first-col {
+    margin-left: 10%;
+  }
+  .second-col {
+    margin-left: 0%;
   }
 </style>

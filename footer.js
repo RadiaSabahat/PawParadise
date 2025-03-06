@@ -1,6 +1,6 @@
-const foot = document.querySelector('.footer-container');
-fetch('/footer.html')
-.then(res=>res.text())
-.then(data=>{
-    foot.innerHTML.data
-})
+fetch("footer.html")
+  .then(response => response.text())
+  .then(data => {
+    document.querySelector(".footer").innerHTML = data;
+  })
+  .catch(error => console.error("Error loading the footer:", error));
