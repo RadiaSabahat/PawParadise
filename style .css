@@ -1,12 +1,12 @@
-.navbar{
-    background-color: rgb(222, 182, 72);
+
+
+
+  .carousel-item img {
+    width: 100%;
+    height: 500px; 
+    object-fit: cover; 
+    object-position: center 20%; 
 }
-.carousal-item  img{
-    height: 50vw;
+.col-md-4{
+  margin-top: 5vw;
 }
-  .spacing-cards{
-    
-  }
-.footer-container{
-    background-color: rgb(155, 169, 181);
-  }
